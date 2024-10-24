@@ -96,8 +96,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 const SizedBox(width: 10),
                 FloatingActionButton(
                   onPressed: () => performOperation('+'),
-                  child: const Icon(Icons.add),
                   mini: true,
+                  child: const Icon(Icons.add),
                 ),
               ],
             ),
@@ -124,8 +124,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 const SizedBox(width: 10),
                 FloatingActionButton(
                   onPressed: () => performOperation('-'),
-                  child: const Icon(Icons.remove),
                   mini: true,
+                  child: const Icon(Icons.remove),
                 ),
               ],
             ),
@@ -152,8 +152,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 const SizedBox(width: 10),
                 FloatingActionButton(
                   onPressed: () => performOperation('*'),
-                  child: const Icon(Icons.clear),
                   mini: true,
+                  child: const Icon(Icons.clear),
                 ),
               ],
             ),
@@ -180,8 +180,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 const SizedBox(width: 10),
                 FloatingActionButton(
                   onPressed: () => performOperation('/'),
-                  child: const Icon(Icons.percent),
                   mini: true,
+                  child: const Icon(Icons.percent),
                 ),
               ],
             ),
